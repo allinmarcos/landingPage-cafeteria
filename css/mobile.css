@@ -1,0 +1,48 @@
+nav ul li {
+    flex-basis: 50%;
+}
+
+nav ul {
+    flex-wrap: wrap;
+}
+
+
+#title {
+    font-size: 35px
+}
+
+#sub-title {
+    font-size: larger;
+}
+
+.product-grid {
+    grid-template-columns: 1fr;
+    row-gap: 45px;
+}
+
+#footer-contact .contact-data {
+    flex-direction: column;
+}
+
+.contact-form form {
+    margin-left: 0px;
+    text-align: left;
+}
+
+nav ul li a {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .form-control input {
+    margin-top: 0px; 
+}
